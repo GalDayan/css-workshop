@@ -1,0 +1,15 @@
+* {
+    direction: rtl;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Assistant';
+    background: #5d1555;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
