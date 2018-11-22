@@ -44,10 +44,6 @@ a.link:hover .link__text {
     font-size: 2em;
 }
 
-.search {
-    flex: 1;
-}
-
 .actions {
     position: relative;
 }
@@ -91,4 +87,29 @@ a.link:hover .link__text {
 .action:hover {
     -webkit-transition: all 0.1s linear; 
     background: #75226d;
+}
+
+.search {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 0 3rem; 
+}
+
+.search-bar {
+    border-radius: 10px;
+    background: #400a3b;
+    border: 1px solid #77136e;
+    color: #fff;
+    padding: 0.7em;
+    width: 100%;
+    outline: none;
+    max-width: 400px;
+    min-width: 200px;
+    justify-content: center;
+    font-family: 'Assistant';
+}
+
+.search-bar::placeholder {
+    color:#b7b7b7;
 }
