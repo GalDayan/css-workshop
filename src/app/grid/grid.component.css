@@ -1,17 +1,6 @@
-.search-status-bar {
-    height: 30px;
-    color: #ff33ec;
-    font-size: 0.85rem;
-    display: flex;
-    align-items: center;
-    padding: 0 1em;
-}
-
 .grid {
-    height: calc(100% - 30);
     width: 100%;
     border-collapse: collapse; 
-    overflow-y: scroll;
 }
 
 .grid tr {
