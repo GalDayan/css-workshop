@@ -12,6 +12,7 @@
 
 .grid {
     flex: 1;
+    overflow-y: auto;
 }
 
 .filters {
