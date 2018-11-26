@@ -1,0 +1,115 @@
+.nav {
+    width: 100%;
+    display: flex;
+}
+
+.logo {
+    color: yellow;
+    font-size: 2.2em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 1em;
+    margin-right: 0.5em;
+    font-weight: 600;
+}
+
+.links {
+    display: flex;
+}
+
+.link {
+    font-size: 1.1rem;
+    margin: 1em;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+}
+
+.link__text, a.link, a.link:active, a.link:visited {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 600;
+    -webkit-transition: all 0.1s linear; 
+}
+
+a.link:hover .link__text {
+    color: #27eada;
+}
+
+.link__icon {
+    color: #27eada;
+    margin-left: 0.5em;
+    font-size: 2em;
+}
+
+.actions {
+    position: relative;
+}
+
+.actions:hover {
+    /* background: #65185d; */
+}
+
+.actions:hover .actions-dropdown {
+    visibility: visible;
+    opacity: 1;
+}
+
+.actions-dropdown {
+    font-size: 1.1rem;
+    width: 250px;
+    background: #65185d;
+    top: 100%;
+    left: -5px;
+    position: absolute;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.35);
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    opacity: 0;
+    z-index: 2;
+    overflow: hidden;
+    -webkit-transition: opacity 0.4s;
+    visibility: hidden;
+}
+
+.action {
+    display: block;
+    box-sizing: border-box;
+    padding: 1em;
+    border-bottom: 1px solid #50204f;
+    border-top: 1px solid #963e93;
+    color: #fff;
+    text-decoration: none;
+}
+
+.action:hover {
+    -webkit-transition: all 0.1s linear; 
+    background: #75226d;
+}
+
+.search {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 0 3rem; 
+}
+
+.search-bar {
+    border-radius: 10px;
+    background: #400a3b;
+    border: 1px solid #77136e;
+    color: #fff;
+    padding: 0.7em;
+    width: 100%;
+    outline: none;
+    max-width: 400px;
+    min-width: 200px;
+    justify-content: center;
+    font-family: 'Assistant';
+}
+
+.search-bar::placeholder {
+    color:#b7b7b7;
+}

@@ -1,0 +1,23 @@
+.grid {
+    width: 100%;
+    border-collapse: collapse; 
+}
+
+.grid tr {
+    color: #000;
+    font-weight: 300;
+    background: #e8e8e8;
+}
+
+.grid tr:nth-child(2n) {
+    background: #f1f1f1;
+}
+
+.grid td {
+    padding: 0.75em 1em;
+    margin: 0;
+}
+
+.grid td:first-child {
+    font-weight: 600;
+}
